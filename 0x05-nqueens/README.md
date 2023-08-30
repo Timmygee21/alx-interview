@@ -1,5 +1,5 @@
 # 0x05-nqueens  
-###N Queens Problem Solver  
+### N Queens Problem Solver  
 The N Queens Problem Solver is a Python program that finds all possible solutions to the N Queens puzzle. The N Queens puzzle is a classic combinatorial problem where N non-attacking queens need to be placed on an N×N chessboard.
 
 ## Usage  
