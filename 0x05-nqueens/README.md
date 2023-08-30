@@ -18,7 +18,7 @@ The program uses a backtracking algorithm to explore all possible solutions effi
 
 1. The `is_safe` function is used to determine if a queen can be safely placed at a given position on the chessboard. It checks for conflicts in the same row, column, and diagonals.  
 2. The `solve_nqueens` function implements recursive backtracking to find all valid solutions. It starts by placing a queen in the first column of the first row and then proceeds to place queens in the subsequent columns. At each step, it checks if the current placement is safe. If so, it proceeds to the next column and repeats the process until all queens are placed. If a valid solution is found, it is added to the list of solutions.  
-3. The program prints each solution on a separate line, using 'Q' to represent queens and '.' for empty cells on the chessboard.
+3. The program prints each solution on a separate line, using `Q` to represent queens and `.` for empty cells on the chessboard.
 
 ## Error Handling  
 The program includes error handling for different scenarios:
