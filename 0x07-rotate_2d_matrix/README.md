@@ -3,9 +3,11 @@
 This is a Python function that allows you to rotate a given n x n 2D matrix 90 degrees clockwise in-place. The rotation is achieved by transposing the matrix and then reversing each row.
 
 ### How to Use  
+
 1. Import the function:
 
 `from matrix_rotation import rotate_2d_matrix`  
+
 2. Prepare your matrix as a list of lists, where each inner list represents a row in the matrix:  
 ```
 matrix = [
