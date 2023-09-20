@@ -1,21 +1,30 @@
 #!/usr/bin/python3
 """
-Making Change
+Make change task
 """
 
 
 def makeChange(coins, total):
-    """
-    make change
+
+    """ Checks how minimum number of coins needed
+        to meet the total amount.
+        Args:
+            - coins: list of coins denominations to use
+            - total: amount of change required
+        Return:
+            - Minimum number of coins needed to make change.
     """
     if total <= 0:
         return 0
-    dp = [float('inf')] * (total + 1)
-    dp[0] = 0
-    for i in range(len(coins)):
-        for j in range(coins[i], total + 1):
-            dp[j] = min(dp[j], dp[j - coins[i]] + 1)
-    if dp[total] != float('inf'):
-        return dp[total]
-    else:
+    coins.sort(reverse=True)
+    coins_needed = 0
+    for coin in coins:
+        if total / coin > 0:
+            coins_needed = coins_needed + (total // coin)
+            total = total % coin
+        if not total:
+            break
+
+    if total != 0 or coins_needed == 0:
         return -1
+    return coins_needed
