@@ -12,8 +12,6 @@ Maria and Ben are playing a game where they take turns choosing prime numbers fr
 - [Example](https://github.com/Timmygee21/alx-interview/tree/main/0x0A-primegame#example)  
 - [Implementation](https://github.com/Timmygee21/alx-interview/tree/main/0x0A-primegame#implementation)  
 - [How to Run](https://github.com/Timmygee21/alx-interview/tree/main/0x0A-primegame#how-to-run)  
-- [Contributing](https://github.com/Timmygee21/alx-interview/tree/main/0x0A-prime#)  
-- [License](https://github.com/Timmygee21/alx-interview/tree/main/0x0A-primegame#)  
 
 ### Problem Description  
 Maria and Ben play x rounds of the prime number game. In each round, they have a set of consecutive integers from 1 up to and including n. They take turns choosing prime numbers and removing those numbers and their multiples from the set. The player who cannot make a move loses the game.
